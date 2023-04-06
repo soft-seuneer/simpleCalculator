@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="./calcu.css" />
+  </head>
+  <body>
+    <section class="calculator">
+      <form>
+        <input type="text" class="display" />
+      </form>
+
+      <div class="buttons">
+        <button type="button" data-num="*" class="btn btn-yellow">*</button>
+        <button type="button" data-num="/" class="btn btn-yellow">/</button>
+        <button type="button" data-num="-" class="btn btn-yellow">-</button>
+        <button type="button" data-num="+" class="btn btn-yellow">+</button>
+        <button type="button" data-num="9" class="btn btn-grey">9</button>
+        <button type="button" data-num="8" class="btn btn-grey">8</button>
+        <button type="button" data-num="7" class="btn btn-grey">7</button>
+        <button type="button" data-num="6" class="btn btn-grey">6</button>
+        <button type="button" data-num="5" class="btn btn-grey">5</button>
+        <button type="button" data-num="4" class="btn btn-grey">4</button>
+        <button type="button" data-num="3" class="btn btn-grey">3</button>
+        <button type="button" data-num="2" class="btn btn-grey">2</button>
+        <button type="button" data-num="1" class="btn btn-grey">1</button>
+        <button type="button" data-num="0" class="btn btn-grey">0</button>
+        <button type="button" data-num="." class="btn btn-grey">.</button>
+
+        <button type="button" id="equal" class="btn-equal">=</button>
+        <button type="button" id="clear" class="btn btn-clear">C</button>
+      </div>
+    </section>
+
+    <script src="./calcu.js"></script>
+  </body>
+</html>
